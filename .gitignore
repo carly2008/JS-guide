@@ -1,3 +1,15 @@
+# Ignorar la carpeta de configuración de VSCode
 .vscode/
+
+# Ignorar la carpeta del sistema Git
 .git/
-index.html
+
+# Ignorar otros archivos temporales o innecesarios
+node_modules/
+dist/
+*.log
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
